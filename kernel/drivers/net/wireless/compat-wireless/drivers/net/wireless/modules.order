@@ -1,0 +1,5 @@
+kernel//opt/release/wfd/compat-wireless/drivers/net/wireless/bcm4329/bcm4329.ko
+kernel//opt/release/wfd/compat-wireless/drivers/net/wireless/bcm4329/bcm4329.ko
+kernel//opt/release/wfd/compat-wireless/drivers/net/wireless/ath/ath9k/ath9k_hw.ko
+kernel//opt/release/wfd/compat-wireless/drivers/net/wireless/ath/ath9k/ath9k_common.ko
+kernel//opt/release/wfd/compat-wireless/drivers/net/wireless/ath/ath.ko

@@ -1,0 +1,5 @@
+kernel//opt/release/svn/debug/compat-wireless-new-0524/net/wireless/cfg80211.ko
+kernel//opt/release/svn/debug/compat-wireless-new-0524/net/wireless/lib80211.ko
+kernel//opt/release/svn/debug/compat-wireless-new-0524/net/wireless/lib80211_crypt_wep.ko
+kernel//opt/release/svn/debug/compat-wireless-new-0524/net/wireless/lib80211_crypt_ccmp.ko
+kernel//opt/release/svn/debug/compat-wireless-new-0524/net/wireless/lib80211_crypt_tkip.ko

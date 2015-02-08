@@ -1,0 +1,151 @@
+--------- beginning of /dev/log/main
+01-07 03:06:15.179 D/WindowManager(  203): interceptKeyTq keycode=26 screenIsOn=false keyguardActive=true
+01-07 03:06:15.179 D/KeyguardViewMediator(  203): wakeWhenReadyLocked(26)
+01-07 03:06:15.179 D/WindowManager(  203): interceptKeyTq keycode=26 screenIsOn=false keyguardActive=true
+01-07 03:06:15.189 I/PowerManagerService(  203): Decreasing sampling rate.
+--------- beginning of /dev/log/system
+01-07 03:06:15.189 D/PowerManagerService(  203): reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=false
+01-07 03:06:15.209 D/PowerManagerService(  203): reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=false
+01-07 03:06:15.229 D/JrdLockScreen(  203): Updating Lock Screen text to Sim
+01-07 03:06:15.229 D/JrdLockScreen(  203): screen on and charging --------start charging animation !!!!!!!!!
+01-07 03:06:15.269 E/WifiEnabler(  712): handleWifiStateChanged(): (1)
+01-07 03:06:15.279 W/DMM Service(  203): Enable Unstable Memory : true
+01-07 03:06:15.289 V/DATA    (  288): [DCT(0) ] intent received :android.intent.action.SCREEN_ON
+01-07 03:06:15.309 D/DATA    (  288): [DSST(0)] pollstate() : reason = data network state changed
+01-07 03:06:15.309 E/JavaBinder(  203): Transact on 0x4fb690 in Java object 0x408d74d8 with code 9 failed
+01-07 03:06:15.309 D/StatusBarPolicy(  274): onSignalStrengthsChanged:SignalStrength: 13 255 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 gsm for subscription0
+01-07 03:06:15.309 D/StatusBarPolicy(  274): updateSignalStrength on subscription :0
+01-07 03:06:15.329 I/TelephonyManager(  203): interface name is null or empty
+01-07 03:06:15.329 I/TelephonyManager(  203): ipAddr is null or empty
+01-07 03:06:15.329 I/TelephonyManager(  203): gatewayAddr is null or empty
+01-07 03:06:15.339 D/DATA    (  288): [DSST(0)] Poll ServiceState done: oldSS=[1 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false] newSS=[1 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false]
+01-07 03:06:15.429 D/NfcService(  289): NFC-EE routing OFF
+01-07 03:06:15.500 I/dun_service(  123): The value returned from dun_getusbmodemstate_fromsys is 2 
+01-07 03:06:15.500 I/dun_service(  115): The value returned from dun_getusbmodemstate_fromsys is 2 
+01-07 03:06:15.560 D/NfcService(  289): NFC-C discovery ON
+01-07 03:06:23.818 D/wpa_supplicant(  946): wpa_supplicant v0.8.x07
+01-07 03:06:23.838 D/wpa_supplicant(  946): random: Trying to read entropy from /dev/random
+01-07 03:06:23.838 D/wpa_supplicant(  946): Initializing interface 'wlan0' conf '/data/misc/wifi/wpa_supplicant.conf' driver 'nl80211' ctrl_interface 'N/A' bridge 'N/A'
+01-07 03:06:23.838 D/wpa_supplicant(  946): Configuration file '/data/misc/wifi/wpa_supplicant.conf' -> '/data/misc/wifi/wpa_supplicant.conf'
+01-07 03:06:23.838 D/wpa_supplicant(  946): Reading configuration file '/data/misc/wifi/wpa_supplicant.conf'
+01-07 03:06:23.838 D/wpa_supplicant(  946): update_config=1
+01-07 03:06:23.838 D/wpa_supplicant(  946): ctrl_interface='/data/misc/wifi/wpa_supplicant'
+01-07 03:06:23.838 D/wpa_supplicant(  946): device_name='brcm-p2p-324'
+01-07 03:06:23.838 D/wpa_supplicant(  946): eapol_version=1
+01-07 03:06:23.838 D/wpa_supplicant(  946): ap_scan=1
+01-07 03:06:23.838 D/wpa_supplicant(  946): fast_reauth=1
+01-07 03:06:23.838 D/wpa_supplicant(  946): nl80211: interface wlan0 in phy phy0
+01-07 03:06:23.838 I/wpa_supplicant(  946): rfkill: Cannot open RFKILL control device
+01-07 03:06:23.838 D/wpa_supplicant(  946): nl80211: RFKILL status not available
+01-07 03:06:23.838 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.838 D/wpa_supplicant(  946): netlink: Operstate: linkmode=1, operstate=5
+01-07 03:06:23.838 I/dun_service(  123): process rmnet event
+01-07 03:06:23.838 I/dun_service(  115): process rmnet event
+01-07 03:06:23.838 I/dun_service(  123): Post event 3
+01-07 03:06:23.838 I/dun_service(  123): received event: DUN_EVENT_RMNET_DOWN 
+01-07 03:06:23.838 I/dun_service(  123): received event(DUN_EVENT_RMNET_DOWN) in state(DUN_STATE_IDLE)
+01-07 03:06:23.838 I/dun_service(  123): Ignoring the event DUN_EVENT_RMNET_DOWN in IDLE_STATE
+01-07 03:06:23.838 I/dun_service(  123): Moved to state(DUN_STATE_IDLE)
+01-07 03:06:23.838 I/dun_service(  115): Post event 3
+01-07 03:06:23.838 I/dun_service(  115): received event: DUN_EVENT_RMNET_DOWN 
+01-07 03:06:23.838 I/dun_service(  115): received event(DUN_EVENT_RMNET_DOWN) in state(DUN_STATE_IDLE)
+01-07 03:06:23.838 I/dun_service(  115): Ignoring the event DUN_EVENT_RMNET_DOWN in IDLE_STATE
+01-07 03:06:23.838 I/dun_service(  115): Moved to state(DUN_STATE_IDLE)
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: Using driver-based off-channel TX
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: driver param='use_p2p_group_interface=1'
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: Use separate P2P group interface
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.848 D/wpa_supplicant(  946): [terry trace] wpa_supplicant_driver_init : wpa_s->driver->send_eapol 
+01-07 03:06:23.848 D/wpa_supplicant(  946): wpa_s->l2_wapi = 0xae550 
+01-07 03:06:23.848 D/wpa_supplicant(  946): [terry trace]wpa_s->l2_wapi = 0xae550 
+01-07 03:06:23.848 D/wpa_supplicant(  946): [terry trace] wpa_supplicant_driver_init 
+01-07 03:06:23.848 D/wpa_supplicant(  946): Own WAPI MAC address: 00:09:23:20:11:aa
+01-07 03:06:23.848 D/wpa_supplicant(  946): wpa_driver_nl80211_set_key: ifindex=22 alg=0 addr=0x0 key_idx=0 set_tx=0 seq_len=0 key_len=0
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.848 D/wpa_supplicant(  946): wpa_driver_nl80211_set_key: ifindex=22 alg=0 addr=0x0 key_idx=1 set_tx=0 seq_len=0 key_len=0
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.848 D/wpa_supplicant(  946): wpa_driver_nl80211_set_key: ifindex=22 alg=0 addr=0x0 key_idx=2 set_tx=0 seq_len=0 key_len=0
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.848 D/wpa_supplicant(  946): wpa_driver_nl80211_set_key: ifindex=22 alg=0 addr=0x0 key_idx=3 set_tx=0 seq_len=0 key_len=0
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.848 D/wpa_supplicant(  946): nl80211: Flush PMKIDs
+01-07 03:06:23.858 I/wpa_supplicant(  946): wlan0: CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00
+01-07 03:06:23.858 D/wpa_supplicant(  946): wpa_state_to_wapi_state wpa_state : 2 change to wapi_state
+01-07 03:06:23.858 D/wpa_supplicant(  946): wpa_supplicant_set_state wapi_state : 2
+01-07 03:06:23.858 D/wpa_supplicant(  946): WPS: Set UUID for interface wlan0
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAPOL: SUPP_PAE entering state DISCONNECTED
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAPOL: Supplicant port status: Unauthorized
+01-07 03:06:23.908 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAPOL: SUPP_BE entering state INITIALIZE
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAP: EAP entering state DISABLED
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAPOL: Supplicant port status: Unauthorized
+01-07 03:06:23.908 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.908 D/wpa_supplicant(  946): EAPOL: Supplicant port status: Unauthorized
+01-07 03:06:23.908 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.928 D/wpa_supplicant(  946): Using existing control interface directory.
+01-07 03:06:23.928 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.928 D/wpa_supplicant(  946): nl80211: Set TX rates failed: ret=-95 (Operation not supported on transport endpoint)
+01-07 03:06:23.928 D/wpa_supplicant(  946): P2P: Failed to disable 11b rates
+01-07 03:06:23.928 E/wpa_supplicant(  946): nl80211: issue private commands P2P_DEV_ADDR
+01-07 03:06:23.928 E/wpa_supplicant(  946): wpa_driver_priv_driver_cmd 	# ªV_ADDR len = 0, 12
+01-07 03:06:23.928 E/wpa_supplicant(  946): P2P: Device address (02:09:23:20:11:aa)
+01-07 03:06:23.928 D/wpa_supplicant(  946): P2P: Device address (02:09:23:20:11:aa)
+01-07 03:06:23.928 D/wpa_supplicant(  946): P2P: Own listen channel: 1
+01-07 03:06:23.938 D/wpa_supplicant(  946): P2P: Random operating channel: 81:11
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: Regulatory information - country=00
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: 2402-2472 @ 40 MHz
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: 2457-2482 @ 20 MHz
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: 2474-2494 @ 20 MHz
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: 5170-5250 @ 40 MHz
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: 5735-5835 @ 40 MHz
+01-07 03:06:23.938 D/wpa_supplicant(  946): nl80211: Added 802.11b mode based on 802.11g information
+01-07 03:06:23.938 D/wpa_supplicant(  946): P2P: Add operating class 81
+01-07 03:06:23.938 D/wpa_supplicant(  946): P2P: Add operating class 115
+01-07 03:06:23.938 D/wpa_supplicant(  946): P2P: Add operating class 124
+01-07 03:06:23.938 D/wpa_supplicant(  946): random: Got 20/20 bytes from /dev/random
+01-07 03:06:23.958 D/wpa_supplicant(  946): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+01-07 03:06:23.958 D/wpa_supplicant(  946): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+01-07 03:06:24.929 D/wpa_supplicant(  946): EAPOL: disable timer tick
+01-07 03:06:24.929 D/wpa_supplicant(  946): EAPOL: Supplicant port status: Unauthorized
+01-07 03:06:24.929 D/wpa_supplicant(  946): nl80211: wpa_driver_nl80211_check_iface iface is UP
+01-07 03:06:29.904 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:29.904 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:06:34.908 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:34.908 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:06:39.913 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:39.913 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:06:44.918 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:44.918 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:06:49.923 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:49.923 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:06:54.928 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:54.928 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:06:59.933 E/wpa_supplicant(  946): CMD: PING
+01-07 03:06:59.933 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:04.938 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:04.938 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:09.943 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:09.943 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:14.948 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:14.948 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:15.308 E/JrdLockScreen(  203): onPause --------Lock Screen charging stop animation !!!!!!!!!
+01-07 03:07:15.388 V/DATA    (  288): [DCT(0) ] intent received :android.intent.action.SCREEN_OFF
+01-07 03:07:15.408 I/PowerManagerService(  203): Increasing sampling rate.
+01-07 03:07:15.408 D/NfcService(  289): NFC-EE routing OFF
+01-07 03:07:15.448 D/NfcService(  289): NFC-C discovery OFF
+01-07 03:07:19.962 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:19.962 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:24.957 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:24.957 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:29.962 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:29.962 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:34.967 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:34.967 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:39.972 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:39.972 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:44.977 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:44.977 D/wpa_supplicant(  946): REPLY: PONG
+01-07 03:07:49.982 E/wpa_supplicant(  946): CMD: PING
+01-07 03:07:49.982 D/wpa_supplicant(  946): REPLY: PONG
